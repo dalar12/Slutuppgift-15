@@ -14,18 +14,11 @@ header {
     text-align: center;
     padding: 20px 0 0;
 }
-.design2 .logo{
-    width: 235px;
-    height: 198px;
-}
-.design2 h1 {
-    font-size: 400%;
-    display: inline-block;
-    margin: 0;
-    vertical-align: 100%;
-}
 .hwrap {
 	background-color: #76192E;
+}
+footer {
+	text-align: center;
 }
 /*
 ====================================================================================
@@ -75,8 +68,39 @@ Design 1
 Design 2
 ====================================================================================
 */
+.design2 .logo{
+    width: 235px;
+    height: 198px;
+}
+.design2 h1 {
+    font-size: 400%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
 /*
 ====================================================================================
 Design 3
 ====================================================================================
 */
+.design3 .logo{
+    width: 235px;
+    height: 198px;
+}
+.design3 h1 {
+    font-size: 400%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 100%;
+}
