@@ -3,13 +3,29 @@
 Alla sidor
 ====================================================================================
 */
-
 body {
     margin: auto;
 	width: 860px;
 }
 header {
     text-align: center;
+}
+header {
+    text-align: center;
+    padding: 20px 0 0;
+}
+.design2 .logo{
+    width: 235px;
+    height: 198px;
+}
+.design2 h1 {
+    font-size: 400%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: 100%;
+}
+.hwrap {
+	background-color: #76192E;
 }
 /*
 ====================================================================================
