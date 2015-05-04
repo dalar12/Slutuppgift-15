@@ -29,6 +29,39 @@ header {
 }
 /*
 ====================================================================================
+Menu
+====================================================================================
+*/
+.menu {
+	background-color: #76192E;
+	padding: 10px 0;
+	text-align: center;
+}
+.menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu li{
+	display: inline-block;
+    border-right: solid 1px #013E75;
+    padding: 0 5px; }
+}
+.menu li:last-child{
+	border-right: none;
+}
+.menu a{
+	display: block;
+    color: white;
+    padding: 10px 30px
+}
+.menu a:hover{
+	background-color: #e6002d;
+    color: #fff; }
+}
+/*
+====================================================================================
 Design 1
 ====================================================================================
 */
