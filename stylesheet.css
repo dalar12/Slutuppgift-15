@@ -89,6 +89,11 @@ th, td {
 th {
     text-align: left;
 }
+#pic img{
+	position: absolut;
+	right: 90px;
+	top: 90px;
+}
 /*
 ====================================================================================
 Design 3
