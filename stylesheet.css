@@ -10,7 +10,6 @@ body {
 }
 header {
     text-align: center;
-    padding: 20px 0 0;
 }
 .hwrap {
 	background-color: #76192E;
@@ -22,7 +21,13 @@ footer {
 }
 .right {
 	float: right;
-	margin-right: 20px;
+	margin: 0px 20px;
+}
+[role="article"] {
+	margin-left: 20px;
+}
+.brap {
+	background-color: rgba(255, 255, 255, 0.5);
 }
 /*
 ====================================================================================
