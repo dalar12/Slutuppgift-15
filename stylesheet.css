@@ -1,3 +1,11 @@
+.right {
+	float: right;
+	margin-right: 20px;
+}
+footer {
+	clear: both;
+	margin: 100px 0px 20px 0px;
+}
 /*
 ====================================================================================
 Alla sidor
@@ -19,14 +27,6 @@ header {
 }
 footer {
 	text-align: center;
-}
-.right {
-	float: right;
-	margin-right: 20px;
-}
-footer {
-	clear: both;
-	margin: 100px 0px 20px 0px;
 }
 /*
 ====================================================================================
