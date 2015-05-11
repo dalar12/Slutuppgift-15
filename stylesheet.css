@@ -6,9 +6,7 @@ Alla sidor
 body {
     margin: auto;
 	max-width: 860px;
-}
-header {
-    text-align: center;
+	background-image: url(img/ice.jpg);
 }
 header {
     text-align: center;
@@ -19,9 +17,12 @@ header {
 }
 footer {
 	text-align: center;
+	clear: both;
+	margin: 100px 0px 20px 0px;
 }
-body {
-	background-image: url(img/ice.jpg);
+.right {
+	float: right;
+	margin-right: 20px;
 }
 /*
 ====================================================================================
