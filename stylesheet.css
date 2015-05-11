@@ -57,6 +57,20 @@ Menu
 	background-color: #e6002d;
     color: #fff; }
 }
+.spelare ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.spelare a {
+	background-color: #155D8D;
+	display: block;
+	padding: 10px 30px;
+}
+.spelare li {
+	display: inline;
+}
+
 /*
 ====================================================================================
 Design 1
