@@ -143,6 +143,29 @@ http://inspirationalpixels.com/tutorials/creating-a-dropdown-menu-with-html-css
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
+<<<<<<< HEAD
+=======
+/*
+====================================================================================
+Spalter
+====================================================================================
+*/
+[class*='col-'] {
+	float: left;
+}
+.col-2-3 {
+	width: 50%;
+}
+.col-1-3 {
+	width: 41%
+}
+[class*='col-'] {
+	margin-right: 20px;
+}
+[class*='col-']:last-of-type {
+	margin-right: 20px;
+}
+>>>>>>> origin/master
 /*
 ====================================================================================
 Design 1
