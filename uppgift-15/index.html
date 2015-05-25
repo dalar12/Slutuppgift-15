@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="utf-8">
+		<title>Colorado Startsida</title>
+		<link href="stylesheet.css" title="Finished" rel="stylesheet" />
+		<link rel="stylesheet" href="nivo-slider.css" media="screen" />
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	</head>
+	<body class="design1">
+		<header>
+			<div class="sphwrap">
+			<div class="blockslider theme-default">
+			<div id="slider" class="nivoSlider">
+			<a href="index.html"><img class="spimg" alt="Startsidan" src="img/colorado_logo.jpg"/></a>
+			<a href="index.html"><img class="spimg" alt="Startsidan" src="img/yeti.jpg"/></a>
+			<a href="index.html"><img class="spimg" alt="Startsidan" src="img/Coloradobild2.jpg"/></a>
+			</div>
+			</div>
+			</div>
+		</header>
+		
+		<div class="menu-wrap">	
+		<nav class="menu">
+			<ul class="clearfix">
+				<li><a href="H-rink.html">Hemma rink</a></li>
+				<li>
+					<a href="HOF.html">Hall of fame <span class="arrow">&#9660;</span></a>
+					<ul class="sub-menu">
+						<li><a href="spelare1.html">Jari Kurri</a></li>
+						<li><a href="spelare2.html">Ray Bourque</a></li>
+						<li><a href="spelare3.html">Joe Sakic</a></li>
+						<li><a href="spelare4.html">Patrick Roy</a></li>
+						<li><a href="spelare5.html">Peter Forsberg</a></li>
+					</ul>
+				</li>
+				<li><a href="Stat.html">Statistik</a></li>
+			</ul>
+		</nav>
+		</div>	
+	
+		<div role="main">
+	
+		</div>
+		<footer>
+			<small>&copy; Simon Johansson & David Larsson</small>
+		</footer>
+		
+		  <script type="text/javascript">
+$(window).load(function() {
+$('#slider').nivoSlider({
+    effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
+    slices: 15,                     // For slice animations
+    boxCols: 8,                     // For box animations
+    boxRows: 4,                     // For box animations
+    animSpeed: 500,                 // Slide transition speed
+    pauseTime: 3000,                 // How long each slide will show
+    startSlide: 0,                     // Set starting Slide (0 index)
+    directionNav: false,             // Next & Prev navigation
+    controlNav: false,                 // 1,2,3... navigation
+    controlNavThumbs: false,         // Use thumbnails for Control Nav
+    pauseOnHover: false,             // Stop animation while hovering
+    manualAdvance: false,             // Force manual transitions
+    prevText: 'Föregående',                 // Prev directionNav text
+    nextText: 'Nästa',                 // Next directionNav text
+    randomStart: false,             // Start on a random slide
+    beforeChange: function(){},     // Triggers before a slide transition
+    afterChange: function(){},         // Triggers after a slide transition
+    slideshowEnd: function(){},     // Triggers after all slides have been shown
+    lastSlide: function(){},         // Triggers when last slide is shown
+    afterLoad: function(){}         // Triggers when slider has loaded
+});
+});
+
+</script>
+	</body>
+</html>
